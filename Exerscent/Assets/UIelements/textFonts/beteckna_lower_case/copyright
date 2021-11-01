@@ -1,0 +1,46 @@
+This package was debianized by:
+
+    Johan Mattsson <johan@beteckna.se> on Wed, 16 May 2007 10:13:20 +0200.
+
+It was downloaded from:
+
+    http://gnu.ethz.ch/linuks.mine.nu/beteckna/
+
+Upstream Authors:
+
+    Johan Mattsson <johan@beteckna.se>
+    Gürkan Sengün <gurkan@phys.ethz.ch>
+    Alexander Fell <alexanderfell@gmx.de>
+
+Copyright:
+
+    Copyright (C) 2007-2009 Gürkan Sengün
+    Copyright (C) 2009 Alexander Fell
+    Copyright (C) 2007 Johan Mattsson
+
+License:
+
+    This package is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 3 of the License, or
+    (at your option) any later version.
+
+    This package is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this package; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+
+On Debian systems, the complete text of the GNU General
+Public License can be found in `/usr/share/common-licenses/GPL-3'.
+
+The Debian packaging is:
+
+    Copyright (C) 2007-2009, Johan Mattsson <johan@beteckna.se> and
+    Gürkan Sengün <gurkan@phys.ethz.ch>
+
+and is licensed under the GPL version 3,
+see `/usr/share/common-licenses/GPL-3'.

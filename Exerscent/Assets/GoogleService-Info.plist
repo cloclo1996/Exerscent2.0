@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>11248987075-9lbpmu24jog00iepj6lanqo5m9d9r4p2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.11248987075-9lbpmu24jog00iepj6lanqo5m9d9r4p2</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA_MwpU-K2VKHEp_tSqjT-0ooaTgoDMW9A</string>
+	<key>GCM_SENDER_ID</key>
+	<string>11248987075</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.SU.Exerscent</string>
+	<key>PROJECT_ID</key>
+	<string>exerscent-2f698</string>
+	<key>STORAGE_BUCKET</key>
+	<string>exerscent-2f698.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:11248987075:ios:601f0f317fdc7df2cb6b76</string>
+	<key>DATABASE_URL</key>
+	<string>https://exerscent-2f698.firebaseio.com</string>
+</dict>
+</plist>

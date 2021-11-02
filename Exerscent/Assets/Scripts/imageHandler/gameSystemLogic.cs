@@ -103,10 +103,10 @@ public class gameSystemLogic : MonoBehaviour {
 		}
 
 		//if(gameRunning){
-			if (Input.GetKeyUp(KeyCode.R))
-			{
-				switchScent("Lemon");
-			}	
+			// if (Input.GetKeyUp(KeyCode.R))
+			// {
+			// 	switchScent("Lemon");
+			// }	
 		// 	if (Input.GetKeyUp(KeyCode.T))
 		// 	{
 		// 		switchScent("Apple");
@@ -301,7 +301,7 @@ public class gameSystemLogic : MonoBehaviour {
 			//Check if scent has already been used
 			foreach(string usedScent in usedScents) {
 				if(usedScent == scentName) {
-					StartCoroutine(UIManager.switchInfoText("This scent has already been handled in this session. Please pick out a new scent not yet used in this session.", true));
+					StartCoroutine(UIManager.switchInfoText("Du har redan väljat denna doft. Välj en ny för att fortsätta", true));
 					return;
 				}
 			}

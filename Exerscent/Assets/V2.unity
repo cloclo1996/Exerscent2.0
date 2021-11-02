@@ -1864,7 +1864,7 @@ MonoBehaviour:
   data: 0
   entries:
   - Language: English
-    Text: PLAY AGAIN?
+    Text: SPELA IGEN?
     Object: {fileID: 0}
   - Language: Svenska
     Text: Spela igen?
@@ -1887,7 +1887,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: PLAY AGAIN?
+  m_text: SPELA IGEN?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 421e0abbe4e714bcaaa115f31b33ba07, type: 2}
   m_sharedMaterial: {fileID: 1309898511258146956, guid: 421e0abbe4e714bcaaa115f31b33ba07,
@@ -2432,7 +2432,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Continue
+  m_text: "Forts\xE4tt"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 567dbe6157b73468480c8fbd8db954cc, type: 2}
   m_sharedMaterial: {fileID: -389406757727938520, guid: 567dbe6157b73468480c8fbd8db954cc,
@@ -2751,7 +2751,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Game Length:'
+  m_text: "Spelets l\xE4ngd:"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 567dbe6157b73468480c8fbd8db954cc, type: 2}
   m_sharedMaterial: {fileID: -389406757727938520, guid: 567dbe6157b73468480c8fbd8db954cc,
@@ -2821,7 +2821,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 280457874}
-    characterCount: 12
+    characterCount: 14
     spriteCount: 0
     spaceCount: 1
     wordCount: 2
@@ -3078,9 +3078,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Exerscent can not find an Arduino connection...
-
-'
+  m_text: Exerscent kan inte hitta en anslutning till Arduino...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 567dbe6157b73468480c8fbd8db954cc, type: 2}
   m_sharedMaterial: {fileID: -389406757727938520, guid: 567dbe6157b73468480c8fbd8db954cc,
@@ -3150,10 +3148,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 311697841}
-    characterCount: 48
+    characterCount: 54
     spriteCount: 0
     spaceCount: 7
-    wordCount: 7
+    wordCount: 8
     linkCount: 0
     lineCount: 1
     pageCount: 1
@@ -3319,7 +3317,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: EXIT SESSION
+  m_text: "L\xC4MNA PASSET"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 421e0abbe4e714bcaaa115f31b33ba07, type: 2}
   m_sharedMaterial: {fileID: 1309898511258146956, guid: 421e0abbe4e714bcaaa115f31b33ba07,
@@ -3427,7 +3425,7 @@ MonoBehaviour:
   data: 0
   entries:
   - Language: English
-    Text: EXIT SESSION
+    Text: "L\xC4MNA PASSET"
     Object: {fileID: 0}
   - Language: Svenska
     Text: "L\xC4MNA SESSION"
@@ -3867,7 +3865,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: NO
+  m_text: NEJ
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 421e0abbe4e714bcaaa115f31b33ba07, type: 2}
   m_sharedMaterial: {fileID: 1309898511258146956, guid: 421e0abbe4e714bcaaa115f31b33ba07,
@@ -3937,7 +3935,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 324184252}
-    characterCount: 2
+    characterCount: 3
     spriteCount: 0
     spaceCount: 0
     wordCount: 1
@@ -4055,7 +4053,7 @@ MonoBehaviour:
   data: 0
   entries:
   - Language: English
-    Text: NO
+    Text: NEJ
     Object: {fileID: 0}
   - Language: Svenska
     Text: NEJ
@@ -4155,7 +4153,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Select the amount of options per smell:'
+  m_text: "V\xE4lj antalet svarsalternativ per doft:"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 567dbe6157b73468480c8fbd8db954cc, type: 2}
   m_sharedMaterial: {fileID: -389406757727938520, guid: 567dbe6157b73468480c8fbd8db954cc,
@@ -4225,10 +4223,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 360694795}
-    characterCount: 39
+    characterCount: 38
     spriteCount: 0
-    spaceCount: 6
-    wordCount: 7
+    spaceCount: 4
+    wordCount: 5
     linkCount: 0
     lineCount: 2
     pageCount: 1
@@ -4313,7 +4311,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Continue
+  m_text: "Forts\xE4tt"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 567dbe6157b73468480c8fbd8db954cc, type: 2}
   m_sharedMaterial: {fileID: -389406757727938520, guid: 567dbe6157b73468480c8fbd8db954cc,
@@ -5641,7 +5639,7 @@ MonoBehaviour:
   data: 0
   entries:
   - Language: English
-    Text: YES
+    Text: JA
     Object: {fileID: 0}
   - Language: Svenska
     Text: JA
@@ -5722,7 +5720,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: YES
+  m_text: JA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 421e0abbe4e714bcaaa115f31b33ba07, type: 2}
   m_sharedMaterial: {fileID: 1309898511258146956, guid: 421e0abbe4e714bcaaa115f31b33ba07,
@@ -5792,7 +5790,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 508735766}
-    characterCount: 3
+    characterCount: 2
     spriteCount: 0
     spaceCount: 0
     wordCount: 1
@@ -6097,7 +6095,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ABOUT
+  m_text: OM
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3c71d4672893640cc82db651552556d8, type: 2}
   m_sharedMaterial: {fileID: 7447197557360973901, guid: 3c71d4672893640cc82db651552556d8,
@@ -6167,7 +6165,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 530907535}
-    characterCount: 5
+    characterCount: 2
     spriteCount: 0
     spaceCount: 0
     wordCount: 1
@@ -6205,7 +6203,7 @@ MonoBehaviour:
   data: 0
   entries:
   - Language: English
-    Text: ABOUT
+    Text: OM
     Object: {fileID: 0}
   - Language: Svenska
     Text: OM
@@ -6343,7 +6341,7 @@ MonoBehaviour:
   data: 0
   entries:
   - Language: English
-    Text: YES
+    Text: JA
     Object: {fileID: 0}
   - Language: Svenska
     Text: JA
@@ -6424,7 +6422,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: YES
+  m_text: JA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 421e0abbe4e714bcaaa115f31b33ba07, type: 2}
   m_sharedMaterial: {fileID: 1309898511258146956, guid: 421e0abbe4e714bcaaa115f31b33ba07,
@@ -6494,7 +6492,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 547493733}
-    characterCount: 3
+    characterCount: 2
     spriteCount: 0
     spaceCount: 0
     wordCount: 1
@@ -6580,7 +6578,7 @@ MonoBehaviour:
   data: 0
   entries:
   - Language: English
-    Text: MENU
+    Text: MENY
     Object: {fileID: 0}
   - Language: Svenska
     Text: MENY
@@ -6669,7 +6667,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: MENU
+  m_text: MENY
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 421e0abbe4e714bcaaa115f31b33ba07, type: 2}
   m_sharedMaterial: {fileID: 1309898511258146956, guid: 421e0abbe4e714bcaaa115f31b33ba07,
@@ -8656,7 +8654,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Are you sure you want to restart the session?
+  m_text: "\xC4r du s\xE4ker p\xE5 att du vill starta om passet?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 567dbe6157b73468480c8fbd8db954cc, type: 2}
   m_sharedMaterial: {fileID: -389406757727938520, guid: 567dbe6157b73468480c8fbd8db954cc,
@@ -8685,7 +8683,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 20.1
+  m_fontSize: 21.1
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -8726,10 +8724,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 726759345}
-    characterCount: 45
+    characterCount: 44
     spriteCount: 0
-    spaceCount: 8
-    wordCount: 9
+    spaceCount: 9
+    wordCount: 10
     linkCount: 0
     lineCount: 1
     pageCount: 1
@@ -10525,7 +10523,7 @@ MonoBehaviour:
   data: 0
   entries:
   - Language: English
-    Text: NO
+    Text: NEJ
     Object: {fileID: 0}
   - Language: Svenska
     Text: NEJ
@@ -10606,7 +10604,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: NO
+  m_text: NEJ
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 421e0abbe4e714bcaaa115f31b33ba07, type: 2}
   m_sharedMaterial: {fileID: 1309898511258146956, guid: 421e0abbe4e714bcaaa115f31b33ba07,
@@ -10676,7 +10674,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1057959714}
-    characterCount: 2
+    characterCount: 3
     spriteCount: 0
     spaceCount: 0
     wordCount: 1
@@ -11271,7 +11269,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -85.00006, y: 0}
   m_SizeDelta: {x: 500, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1121751865
@@ -11351,7 +11349,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Insert player name
+  m_text: Skriv spelarens namn
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 567dbe6157b73468480c8fbd8db954cc, type: 2}
   m_sharedMaterial: {fileID: -389406757727938520, guid: 567dbe6157b73468480c8fbd8db954cc,
@@ -11387,7 +11385,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_textAlignment: 513
+  m_textAlignment: 514
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -11421,7 +11419,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1121751868}
-    characterCount: 18
+    characterCount: 20
     spriteCount: 0
     spaceCount: 2
     wordCount: 3
@@ -11996,15 +11994,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Exerscent is a game designed to help train the sense of smell. By playing
-    the game the player creates measurable results.\n \nStudies have shown sensory
-    benefits of smell training. This game is part of a portable olfactory display
-    designed primarily for uses outside of the laboratory and that can be operated
-    with a personal computer.\n \nProject leading and guidance: Jonas Olofsson (SU)
-    and Simon Niedenthal (MAU)\nDesign: Johannes Nilsson, Malm\xF6 University\nDigital
-    development: Johan Hellgren and Martin Wibom, Malm\xF6 University\n\nFunding:\nThis
-    project was supported by funding from the Marianne and Marcus Wallenberg foundation
-    (MMW 2014:0178).\n"
+  m_text: "Exerscent \xE4r ett spel som designats f\xF6r att tr\xE4na luktsinnet.
+    Genom att spela spelet skapar spelaren m\xE4tbara resultat.\n \nStudier har visat
+    att lukttr\xE4ning har gynnsamma effekter p\xE5 luktsinnet. Det h\xE4r spelet
+    \xE4r en del av en portabel apparat f\xF6r lukttr\xE4ning utanf\xF6r laboratoriemilj\xF6
+    som kan anv\xE4ndas tillsammans med en persondator (PC).\n \nProjektets ledning:
+    Jonas Olofsson (SU) och Simon Niedenthal (MAU)\r\nDesign: Johannes Nilsson, Malm\xF6
+    universitet\r\nDigital utveckling: Johan Hellgren och Martin Wibom, Malm\xF6
+    universitet\n\nFinansiering:\r\nProjektet har st\xF6d av finansiering fr\xE5n
+    Marianne och Marcus Wallenberg-stiftelsen (MMW 2014:0178)."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 567dbe6157b73468480c8fbd8db954cc, type: 2}
   m_sharedMaterial: {fileID: -389406757727938520, guid: 567dbe6157b73468480c8fbd8db954cc,
@@ -12033,7 +12031,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 23.05
+  m_fontSize: 23.3
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -12074,12 +12072,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1172140792}
-    characterCount: 643
+    characterCount: 636
     spriteCount: 0
-    spaceCount: 101
-    wordCount: 97
+    spaceCount: 90
+    wordCount: 87
     linkCount: 0
-    lineCount: 18
+    lineCount: 17
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -13089,7 +13087,7 @@ MonoBehaviour:
   data: 0
   entries:
   - Language: English
-    Text: NO
+    Text: NEJ
     Object: {fileID: 0}
   - Language: Svenska
     Text: NEJ
@@ -13170,7 +13168,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: NO
+  m_text: NEJ
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 421e0abbe4e714bcaaa115f31b33ba07, type: 2}
   m_sharedMaterial: {fileID: 1309898511258146956, guid: 421e0abbe4e714bcaaa115f31b33ba07,
@@ -13240,7 +13238,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1303144489}
-    characterCount: 2
+    characterCount: 3
     spriteCount: 0
     spaceCount: 0
     wordCount: 1
@@ -13565,7 +13563,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: QUIT
+  m_text: AVSLUTA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 421e0abbe4e714bcaaa115f31b33ba07, type: 2}
   m_sharedMaterial: {fileID: 1309898511258146956, guid: 421e0abbe4e714bcaaa115f31b33ba07,
@@ -13635,7 +13633,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1349723588}
-    characterCount: 4
+    characterCount: 7
     spriteCount: 0
     spaceCount: 0
     wordCount: 1
@@ -13673,7 +13671,7 @@ MonoBehaviour:
   data: 0
   entries:
   - Language: English
-    Text: QUIT
+    Text: AVSLUTA
     Object: {fileID: 0}
   - Language: Svenska
     Text: AVSLUTA
@@ -14298,7 +14296,7 @@ MonoBehaviour:
   data: 0
   entries:
   - Language: English
-    Text: Restart session
+    Text: STARTA OM PASSET
     Object: {fileID: 0}
   - Language: Svenska
     Text: Starta om sessionen
@@ -14321,7 +14319,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Restart session
+  m_text: STARTA OM PASSET
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 421e0abbe4e714bcaaa115f31b33ba07, type: 2}
   m_sharedMaterial: {fileID: 1309898511258146956, guid: 421e0abbe4e714bcaaa115f31b33ba07,
@@ -14391,10 +14389,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -206.63042, w: 0}
   m_textInfo:
     textComponent: {fileID: 1436037657}
-    characterCount: 15
+    characterCount: 16
     spriteCount: 0
-    spaceCount: 1
-    wordCount: 2
+    spaceCount: 2
+    wordCount: 3
     linkCount: 0
     lineCount: 1
     pageCount: 1
@@ -15205,7 +15203,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: YES
+  m_text: JA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 421e0abbe4e714bcaaa115f31b33ba07, type: 2}
   m_sharedMaterial: {fileID: 1309898511258146956, guid: 421e0abbe4e714bcaaa115f31b33ba07,
@@ -15275,7 +15273,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1560764342}
-    characterCount: 3
+    characterCount: 2
     spriteCount: 0
     spaceCount: 0
     wordCount: 1
@@ -15393,7 +15391,7 @@ MonoBehaviour:
   data: 0
   entries:
   - Language: English
-    Text: YES
+    Text: JA
     Object: {fileID: 0}
   - Language: Svenska
     Text: JA
@@ -15671,7 +15669,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Enter name...
+  m_text: "Skriv namn\u2026"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 421e0abbe4e714bcaaa115f31b33ba07, type: 2}
   m_sharedMaterial: {fileID: 1309898511258146956, guid: 421e0abbe4e714bcaaa115f31b33ba07,
@@ -15741,7 +15739,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1606617457}
-    characterCount: 13
+    characterCount: 11
     spriteCount: 0
     spaceCount: 1
     wordCount: 2
@@ -15953,7 +15951,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Are you sure you want to exit the session?
+  m_text: "\xC4r du s\xE4ker p\xE5 att du vill l\xE4mna passet?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 567dbe6157b73468480c8fbd8db954cc, type: 2}
   m_sharedMaterial: {fileID: -389406757727938520, guid: 567dbe6157b73468480c8fbd8db954cc,
@@ -15982,7 +15980,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 21.45
+  m_fontSize: 22.8
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -16023,7 +16021,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1643629470}
-    characterCount: 42
+    characterCount: 40
     spriteCount: 0
     spaceCount: 8
     wordCount: 9
@@ -16109,7 +16107,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Are you sure you want to quit?
+  m_text: "\xC4r du s\xE4ker p\xE5 att du vill avsluta?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 567dbe6157b73468480c8fbd8db954cc, type: 2}
   m_sharedMaterial: {fileID: -389406757727938520, guid: 567dbe6157b73468480c8fbd8db954cc,
@@ -16138,7 +16136,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 29.4
+  m_fontSize: 27
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -16179,10 +16177,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1649907374}
-    characterCount: 30
+    characterCount: 35
     spriteCount: 0
-    spaceCount: 6
-    wordCount: 7
+    spaceCount: 7
+    wordCount: 8
     linkCount: 0
     lineCount: 1
     pageCount: 1
@@ -17717,7 +17715,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: QUIT
+  m_text: AVSLUTA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 421e0abbe4e714bcaaa115f31b33ba07, type: 2}
   m_sharedMaterial: {fileID: 1309898511258146956, guid: 421e0abbe4e714bcaaa115f31b33ba07,
@@ -17787,7 +17785,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1851701322}
-    characterCount: 4
+    characterCount: 7
     spriteCount: 0
     spaceCount: 0
     wordCount: 1

@@ -187,7 +187,7 @@ namespace TMPro
                 m_GraphicRebuildQueue[i].Rebuild(CanvasUpdate.PreRender);
             }
 
-            // If there are no objects in the queue, we don't need to clear the lists again..
+            // If there are no objects in the queue, we don't need to clear the lists again.
             if (m_GraphicRebuildQueue.Count > 0)
             {
                 m_GraphicRebuildQueue.Clear();

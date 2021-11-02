@@ -152,13 +152,13 @@ public class UIManager : MonoBehaviour {
 			case UIState.welcome:
 				welcomeScreen.transform.DOLocalMove(new Vector3(0, 0, 0), transitionSpeed);
 				title.GetComponentInChildren<Image>().DOFillAmount(0, .1f).SetEase(Ease.InSine);
-				StartCoroutine(switchInfoText("Pick a scent sample and smell it, then place it on the reader platform.", true));
+				StartCoroutine(switchInfoText("Välj doft, lukta på den och placera den på platformen", true));
 				enterMain();
 				break;
                 //Show prompt asking player to put a new scent on the reader
 			case UIState.waitingForScent:
 				welcomeScreen.transform.DOLocalMove(new Vector3(1500,0, 0), transitionSpeed);
-				StartCoroutine(switchInfoText("Pick a scent sample and smell it, then place it on the reader platform.", true));
+				StartCoroutine(switchInfoText("Välj doft, lukta på den och placera den på platformen", true));
 				progressBar.transform.DOLocalMove(new Vector3(0, 300, 0), transitionSpeed);
 				break;
 			case UIState.waitingForAttempt:
@@ -214,14 +214,14 @@ public class UIManager : MonoBehaviour {
 		endScreen.transform.DOLocalMove(new Vector3(0, 0, 0), transitionSpeed);
 		TextMeshProUGUI endScore = GameObject.Find("EndText").GetComponent<TextMeshProUGUI>();
 		playAgainButton.transform.DOLocalMove(new Vector3(0, -290, 0), transitionSpeed);
-		endScore.text = "Session complete! Your score was " + manager.totalScore + " out of " + manager.gameLength + ".";
+		endScore.text = "Färdig! Din poäng blev " + manager.totalScore + " av " + manager.gameLength + ".";
 	}
 
 	public void showErrorMessage()
 	{
 		errorWindow.transform.DOLocalMove(new Vector3(0, 82, 0), transitionSpeed);
 		quitOpen = true;
-		quitText.GetComponent<TextMeshProUGUI>().text = "Do you want to quit the game?";
+		quitText.GetComponent<TextMeshProUGUI>().text = "Vill du avsluta?";
 		Sequence quitSequence = DOTween.Sequence();
 		quitSequence.Append(quitWindow.transform.DOLocalMove(new Vector3(0, -158, 0), menuSpeed)).SetEase(Ease.InOutSine);
 	}
@@ -230,7 +230,7 @@ public class UIManager : MonoBehaviour {
 	{
 		errorWindow.transform.DOLocalMove(new Vector3(0, 1000, 0), transitionSpeed);
 		quitOpen = false;
-		quitText.GetComponent<TextMeshProUGUI>().text = "Are you sure want to quit the game?";
+		quitText.GetComponent<TextMeshProUGUI>().text = "Är du säker på att du vill avsluta?";
 		Sequence quitSequence = DOTween.Sequence();
 		quitSequence.Append(quitWindow.transform.DOLocalMove(new Vector3(200, 1000, 0), menuSpeed)).SetEase(Ease.InOutSine);
 	}
@@ -699,6 +699,7 @@ public class UIManager : MonoBehaviour {
 		
 		//Clears all the current data
 		manager.playAgain();
+
 		
 		//Close the Menu
 		menuOpen=true;

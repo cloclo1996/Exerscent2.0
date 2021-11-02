@@ -7569,8 +7569,8 @@ MonoBehaviour:
   usedScents: []
   totalScents:
   - scentSprite: {fileID: 21300000, guid: 35792fd6e97ca4523b44b4bcba532c61, type: 3}
-    category: 0
-    name: Apple
+    category: 1
+    name: "\xC4pple"
     cardColor: {r: 0.6672303, g: 0.9245283, b: 0.71297216, a: 1}
     scentPicture: {fileID: 0}
   - scentSprite: {fileID: 21300000, guid: c1177004273ed4724a05bf444f202f0a, type: 3}
@@ -7645,7 +7645,7 @@ MonoBehaviour:
     scentPicture: {fileID: 0}
   - scentSprite: {fileID: 21300000, guid: d1b0294a002d14678b1b737d9c41c4d9, type: 3}
     category: 0
-    name: Grapefruit
+    name: Grapefrukt
     cardColor: {r: 0.9622642, g: 0.5682332, b: 0.29503384, a: 1}
     scentPicture: {fileID: 0}
   - scentSprite: {fileID: 21300000, guid: 4abe71e4f417142c8a50218ee6f8810f, type: 3}

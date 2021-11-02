@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Text;
 using System.Collections;
 using System.IO.Ports;//.Ports;
 using System.Threading;
@@ -44,13 +45,18 @@ public class SerialCom : MonoBehaviour {
 		}
 	}
 
+	// public static string Base64Encode(string plainText) {
+	// 	var plainTextBytes = System.Text.Encoding.UTF8.GetBytes(plainText);
+	// 	return System.Convert.ToBase64String(plainTextBytes);
+	// }
+
 	public IEnumerator ReadTwoStrings(){   
 		//scentName.ToLower ();
 		while (stream.IsOpen) {
 
 			try
 			{
-				string value2 = stream.ReadLine (); //Read the information
+				string value2 = stream.ReadLine(); //Read the information but also messes up any special character...
 				
 				//print (value2);
 
@@ -76,7 +82,9 @@ public class SerialCom : MonoBehaviour {
 */
 						//Make sure the texts are treated as strings
 						//scentType=scentType.ToString();
-						scentName=scentName.ToString();
+						Debug.Log(scentName + " before conversion");
+						scentName=scentName.ToString(); //maybe problem???
+						Debug.Log(scentName + " after conversion");
 
 						//Trim the strings to get rid of spaces
 						//scentType=scentType.Trim(); 
@@ -95,7 +103,7 @@ public class SerialCom : MonoBehaviour {
 						}
 						
 
-						print(scentType.ToLower()+" called "+scentName.ToLower()); //Print for bug testing
+						//print(scentType.ToLower()+" called "+scentName.ToLower()); //Print for bug testing
 						
 
 						stream.BaseStream.Flush (); //Clear serial stream to assure we get new information

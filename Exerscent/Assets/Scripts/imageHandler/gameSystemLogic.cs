@@ -103,10 +103,10 @@ public class gameSystemLogic : MonoBehaviour {
 		}
 
 		//if(gameRunning){
-			// if (Input.GetKeyUp(KeyCode.R))
-			// {
-			// 	switchScent("Lemon");
-			// }	
+			if (Input.GetKeyUp(KeyCode.R))
+			{
+				switchScent("Lemon");
+			}	
 		// 	if (Input.GetKeyUp(KeyCode.T))
 		// 	{
 		// 		switchScent("Apple");
@@ -152,7 +152,7 @@ public class gameSystemLogic : MonoBehaviour {
 		List <scentData> newScents = new List<scentData>();
 		//Find correct scent and add it to the list of new scents
 		for (int i = 0; i < tempScents.Count; i++) {
-			if(tempScents[i].name.ToLower() == correctScent.ToLower()) {
+			if(tempScents[i].scentSprite.name.ToLower() == correctScent.ToLower()) {
 				newScents.Add(tempScents[i]);
 				tempScents.RemoveAt(i);
 			}
@@ -225,13 +225,13 @@ public class gameSystemLogic : MonoBehaviour {
 
 		currentResult.options = new List<string>();
 		foreach(GameObject scentThing in currentScents) {
-			currentResult.options.Add(scentThing.GetComponentInChildren<ScentBehaviour>().thisData.name.ToLower());
+			currentResult.options.Add(scentThing.GetComponentInChildren<ScentBehaviour>().thisData.scentSprite.name.ToLower());
 		}
         
 		foreach(GameObject scentCard in currentScents) {
 			if(scentCard.GetComponentInChildren<ScentBehaviour>().selected) {
 				scentObject = scentCard;
-				attempt = scentObject.GetComponentInChildren<ScentBehaviour>().thisData.name;
+				attempt = scentObject.GetComponentInChildren<ScentBehaviour>().thisData.scentSprite.name;
 				currentResult.attempt = attempt.ToLower();
 				currentResult.correctScent = correctScent.ToLower();
 				usedScents.Add(correctScent);

@@ -7568,300 +7568,280 @@ MonoBehaviour:
   usedCards: []
   usedScents: []
   totalScents:
-  - scentSprite: {fileID: 21300000, guid: 35792fd6e97ca4523b44b4bcba532c61, type: 3}
+  - scentSprite: {fileID: 21300000, guid: 8e1110686e5b85a4da814c82115a0969, type: 3}
     category: 1
-    name: "\xC4pple"
+    name: Akacia
     cardColor: {r: 0.6672303, g: 0.9245283, b: 0.71297216, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: c1177004273ed4724a05bf444f202f0a, type: 3}
-    category: 0
-    name: Orange
+  - scentSprite: {fileID: 21300000, guid: 09b0087a06a694546a9dc5179d2357dd, type: 3}
+    category: 1
+    name: Mandel
     cardColor: {r: 0.9433962, g: 0.6733101, b: 0.5473478, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 75ad39a98a4a943c3a3e0c44a0309c6d, type: 3}
+  - scentSprite: {fileID: 21300000, guid: 9bb21810d5f2c4571a5b37a12667d166, type: 3}
     category: 0
-    name: Lemon
+    name: "\xC4pple"
     cardColor: {r: 0.9811321, g: 0.93994707, b: 0.5322179, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 29c31e71aa34244b0822e392ced85b44, type: 3}
+  - scentSprite: {fileID: 21300000, guid: 7e684c53fccce40348e4b2c712180891, type: 3}
     category: 0
-    name: Grapes
+    name: Aprikos
     cardColor: {r: 0.8382698, g: 0.9245283, b: 0.6061766, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 87160aa70ed74481b883d685d4e7a4e2, type: 3}
+  - scentSprite: {fileID: 21300000, guid: 9836122b80ad24eaabef9436b0ed7447, type: 3}
     category: 0
-    name: Pear
+    name: Banan
     cardColor: {r: 0.8150355, g: 0.9716981, b: 0.62793696, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 85217cdc95318487490cdad48520ed54, type: 3}
-    category: 1
-    name: Pine
+  - scentSprite: {fileID: 21300000, guid: e9fe9344ae33dde4996b4f5f14b0aa06, type: 3}
+    category: 0
+    name: "Bl\xE5b\xE4r"
     cardColor: {r: 0.4785724, g: 0.6509434, b: 0.46978462, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: a959144d21c8c4e71ba62b4cca13085c, type: 3}
-    category: 1
-    name: Rose
+  - scentSprite: {fileID: 21300000, guid: cab431211a7c94d3e881e289311f0eb8, type: 3}
+    category: 0
+    name: "Bj\xF6rnb\xE4r"
     cardColor: {r: 0.7830189, g: 0.5281684, b: 0.6586621, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 9f6e4de75cbac40519b4170deae273aa, type: 3}
+  - scentSprite: {fileID: 21300000, guid: 809a88f573f5c4271a7df29c2c233a9c, type: 3}
     category: 0
-    name: Blackberry
+    name: "Svart Vinb\xE4r"
     cardColor: {r: 0.35673645, g: 0.33454967, b: 0.3962264, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: c25fda6383a97480ab71d28e7e1826c2, type: 3}
+  - scentSprite: {fileID: 21300000, guid: 33c16f2e0288cf242a488a84138fafde, type: 3}
     category: 1
-    name: Saffron
+    name: Buxbom
     cardColor: {r: 0.7735849, g: 0.60843736, b: 0.4269313, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 323ef2bb1bf6649f5ac413a30dce12f3, type: 3}
+  - scentSprite: {fileID: 21300000, guid: 9c3b56504cf96489685cd242857ddb6e, type: 3}
     category: 1
-    name: Vanilla
+    name: "Sm\xF6r"
     cardColor: {r: 0.6698113, g: 0.6263471, b: 0.47708258, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 7e1e8aeafc74c4031a71f9e64bb1d297, type: 3}
+  - scentSprite: {fileID: 21300000, guid: 74e268fc7e059421d89c63060646d314, type: 3}
     category: 1
-    name: Clove
+    name: Kola
     cardColor: {r: 0.3962264, g: 0.37151417, b: 0.36445352, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 60e2fc5742d3e4f63afd79f5702c7025, type: 3}
+  - scentSprite: {fileID: 21300000, guid: 8939e557339e4c9488a1d168138576c7, type: 3}
     category: 1
-    name: Strawberry
+    name: Ceder
     cardColor: {r: 0.6792453, g: 0.43253827, b: 0.43253827, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 5c68cda88fbfb43e88baf8b68947a021, type: 3}
-    category: 1
-    name: Acacia
+  - scentSprite: {fileID: 21300000, guid: 8388afed4b70b4b368a673caa5b5ce41, type: 3}
+    category: 0
+    name: "K\xF6rsb\xE4r"
     cardColor: {r: 0.8396226, g: 0.69808346, b: 0.51882344, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 79308296fd6224e44b80371e620bbeee, type: 3}
-    category: 0
-    name: Peach
+  - scentSprite: {fileID: 21300000, guid: a0f502433d7f04aef95396c385b04711, type: 3}
+    category: 1
+    name: Choklad
     cardColor: {r: 0.745283, g: 0.5449003, b: 0.54856163, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 96c59a7b12f3f4359950d27c55d472fc, type: 3}
+  - scentSprite: {fileID: 21300000, guid: 24670ef79d4784f15808fd6070cdf45a, type: 3}
     category: 1
-    name: Thyme
+    name: Kanel
     cardColor: {r: 0.2791474, g: 0.4811321, b: 0.2924232, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: d1b0294a002d14678b1b737d9c41c4d9, type: 3}
-    category: 0
-    name: Grapefrukt
+  - scentSprite: {fileID: 21300000, guid: ac864c69e67416e4f94136b1ee4bc34f, type: 3}
+    category: 1
+    name: Kryddnejlika
     cardColor: {r: 0.9622642, g: 0.5682332, b: 0.29503384, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 4abe71e4f417142c8a50218ee6f8810f, type: 3}
-    category: 2
-    name: Pineapple
+  - scentSprite: {fileID: 21300000, guid: 74f37f60066ce4854a836c795326cf9c, type: 3}
+    category: 1
+    name: Kaffe
     cardColor: {r: 0.9056604, g: 0.8160921, b: 0.32039872, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: b28aa118b36164225987cc1f6badcb4a, type: 3}
-    category: 0
-    name: Banana
+  - scentSprite: {fileID: 21300000, guid: 57eedc92e0f786d4f9951ca6634a0e6c, type: 3}
+    category: 1
+    name: "Klippt H\xF6"
     cardColor: {r: 0.9811321, g: 0.8366326, b: 0.28230685, a: 0.99215686}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 6763ccd40aae541cb9b0bf2c5b8ec365, type: 3}
+  - scentSprite: {fileID: 21300000, guid: 99b0a8967fca84801892477864d87e06, type: 3}
     category: 0
-    name: Lychee
+    name: Grapefrukt
     cardColor: {r: 0.7924528, g: 0.39890882, b: 0.35510856, a: 0.9843137}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 36c430b66c1c447139ec54a08fec8689, type: 3}
+  - scentSprite: {fileID: 21300000, guid: dcb14e596bf67444c93c7ec839aa82b6, type: 3}
     category: 0
-    name: Melon
+    name: Druvor
     cardColor: {r: 0.9433962, g: 0.5536813, b: 0.23584905, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 7f54cfeeaff95465798101d0ffb1f8fc, type: 3}
+  - scentSprite: {fileID: 21300000, guid: 14528e5c76d70aa4398ab44164e92140, type: 3}
     category: 0
-    name: Muscat
+    name: "Gr\xF6n Paprika"
     cardColor: {r: 0.8301887, g: 0.7226322, b: 0.20754717, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: e06883e60b8304f1ca8ef488212b3029, type: 3}
-    category: 0
-    name: Quince
+  - scentSprite: {fileID: 21300000, guid: 27e15526dca7011468b027a82ea0e747, type: 3}
+    category: 1
+    name: Hagtorn
     cardColor: {r: 0.9056604, g: 0.79166275, b: 0.15806337, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 68e6372c4ea55466d99fbd8dfd47d07b, type: 3}
-    category: 0
-    name: Raspberry
+  - scentSprite: {fileID: 21300000, guid: b0fd72ad8c5b746fb87a2b0839bc620e, type: 3}
+    category: 1
+    name: Honung
     cardColor: {r: 0.62352943, g: 0.22352943, b: 0.25882354, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 8d9fe7f12af5f4c45a527bc65a05ac11, type: 3}
-    category: 0
-    name: Redcurrant
+  - scentSprite: {fileID: 21300000, guid: 98c455a594e24404e91dae257588ac65, type: 3}
+    category: 1
+    name: "L\xE4der"
     cardColor: {r: 0.85098046, g: 0.20000002, b: 0.15686275, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: e2d20b57f74b141e7b7da98f3b97af6e, type: 3}
+  - scentSprite: {fileID: 21300000, guid: aed46bc3c8fdb4514b9ce4aa0444d36f, type: 3}
     category: 0
-    name: Blackcurrant
+    name: Citron
     cardColor: {r: 0.15294118, g: 0.14509805, b: 0.14117648, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: fcd9519ca25d145ee94bf598674003d8, type: 3}
-    category: 0
-    name: Bilberry
+  - scentSprite: {fileID: 21300000, guid: e36a4dc5341bbaa4882363a88c7c01c8, type: 3}
+    category: 1
+    name: Lind
     cardColor: {r: 0.16862746, g: 0.227451, b: 0.3254902, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 2f10d48a0b3004fc0a158b68cf208ad7, type: 3}
-    category: 0
-    name: Cherry
+  - scentSprite: {fileID: 21300000, guid: 8836468ed2031c74babc81fff1b458f4, type: 3}
+    category: 1
+    name: Lakrits
     cardColor: {r: 0.6392157, g: 0.18039216, b: 0.13333334, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 8573e7dc598d64a8d93f31e2e674a85f, type: 3}
+  - scentSprite: {fileID: 21300000, guid: 3b1a440f41d094504b07414f4f55eb8e, type: 3}
     category: 0
-    name: Apricot
+    name: Litchi
     cardColor: {r: 0.92549026, g: 0.61960787, b: 0.23137257, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: bb94f452c7e734685b76f569f7165ff1, type: 3}
-    category: 1
-    name: Almond
+  - scentSprite: {fileID: 21300000, guid: 0e263461aa55c4ff0a910b703179abfc, type: 3}
+    category: 0
+    name: Melon
     cardColor: {r: 0.5254902, g: 0.28235295, b: 0.15686275, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 03279030e61554b14bd302dd7d7bedec, type: 3}
+  - scentSprite: {fileID: 21300000, guid: 51f62ab490ab64af2b73403f2a9fb92e, type: 3}
     category: 0
-    name: Prune
+    name: Muskat
     cardColor: {r: 0.19215688, g: 0.15686275, b: 0.12941177, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 2e765ddc1984a4b7c9bf19bbd1f09b22, type: 3}
+  - scentSprite: {fileID: 21300000, guid: 1a9622b2c9e854d0c8c0b2d886bbc432, type: 3}
     category: 1
-    name: Walnut
+    name: Svamp
     cardColor: {r: 0.59607846, g: 0.36862746, b: 0.17254902, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: de7dd8068a9e342bbb8da00d1958749c, type: 3}
+  - scentSprite: {fileID: 21300000, guid: 399c9128b45cc29428c6bc7a04a2da2f, type: 3}
     category: 1
-    name: Hawthorn
+    name: Mysk
     cardColor: {r: 0.85098046, g: 0.82745105, b: 0.64705884, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 59c70a70b9fcf465f9e32e2c880d83f7, type: 3}
-    category: 1
-    name: Linden
+  - scentSprite: {fileID: 21300000, guid: 83d5b3294473c41d2b6ec31950bef105, type: 3}
+    category: 0
+    name: Apelsin
     cardColor: {r: 0.9450981, g: 0.85098046, b: 0.3137255, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 4c345fc2789604de3818b48c5e422bca, type: 3}
+  - scentSprite: {fileID: 21300000, guid: a25e7007ee0dd4fda8fbe6b6aa3d0db1, type: 3}
     category: 0
-    name: Honey
+    name: Persika
     cardColor: {r: 0.83921576, g: 0.69803923, b: 0.27058825, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: f5f7ae45278d845aaa6b4ff48693f4e5, type: 3}
-    category: 1
-    name: Violet
+  - scentSprite: {fileID: 21300000, guid: 0f3279878bcec4ca6bad80b406469d33, type: 3}
+    category: 0
+    name: "P\xE4ron"
     cardColor: {r: 0.21960786, g: 0.18039216, b: 0.25490198, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 6bd59d845589048c290077a129bdb12d, type: 3}
-    category: 2
-    name: Green pepper
+  - scentSprite: {fileID: 21300000, guid: fcb292b56971c4349850a089804a40cd, type: 3}
+    category: 1
+    name: Peppar
     cardColor: {r: 0.52156866, g: 0.5882353, b: 0.23529413, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: f2232b2eb65d0422d81cf22342c49468, type: 3}
+  - scentSprite: {fileID: 21300000, guid: ef67122f738e74292bf36a23e1507718, type: 3}
     category: 1
-    name: Mushroom
+    name: Tall
     cardColor: {r: 0.76470596, g: 0.72156864, b: 0.54509807, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: b2fe52ff90c1f4d609edb61a294abafb, type: 3}
-    category: 2
-    name: Truffle
+  - scentSprite: {fileID: 21300000, guid: a0d373628988f40c9851945d768b4fa8, type: 3}
+    category: 0
+    name: Ananas
     cardColor: {r: 0.38431376, g: 0.3019608, b: 0.2392157, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: c6da0441f58ca43dcaaa593418211f30, type: 3}
-    category: 1
-    name: Wine lees
+  - scentSprite: {fileID: 21300000, guid: deb77e4551d53485f9b589566b6275a0, type: 3}
+    category: 0
+    name: Plommon
     cardColor: {r: 0.8431373, g: 0.72156864, b: 0.4784314, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 671a175a711cc4e11b268982bb36e12f, type: 3}
-    category: 1
-    name: Cedar
+  - scentSprite: {fileID: 21300000, guid: 865af87b54484448c9f86fa8750026e5, type: 3}
+    category: 0
+    name: Kvitten
     cardColor: {r: 0.31764707, g: 0.41960788, b: 0.28627452, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 84fc5711533c4414cb7f808af4495006, type: 3}
-    category: 1
-    name: Liquorice
+  - scentSprite: {fileID: 21300000, guid: 5c0675035389c41c4bbb0d1861c19ab2, type: 3}
+    category: 0
+    name: Hallon
     cardColor: {r: 0.1509434, g: 0.1335534, b: 0.12317551, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 3818260203fe7483a8b8037b75228332, type: 3}
-    category: 1
-    name: Boxwood
+  - scentSprite: {fileID: 21300000, guid: c2d05ea81016e40e98179d49a7afbbf4, type: 3}
+    category: 0
+    name: "R\xF6da Vinb\xE4r"
     cardColor: {r: 0.5372549, g: 0.5529412, b: 0.3137255, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 0ee96a5ddd9174a81ba33ae471cf0f55, type: 3}
+  - scentSprite: {fileID: 21300000, guid: 8dc8508ac365e8b4ba336463a9a388ce, type: 3}
     category: 1
-    name: Cut hay
+    name: Rostad Mandel
     cardColor: {r: 0.72156864, g: 0.7411765, b: 0.47450984, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 96c59a7b12f3f4359950d27c55d472fc, type: 3}
+  - scentSprite: {fileID: 21300000, guid: 31061c62a11617a4a84298f624470a71, type: 3}
     category: 1
-    name: Thyme
+    name: "Rostad Hasseln\xF6t"
     cardColor: {r: 0.6117647, g: 0.5921569, b: 0.5058824, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 323ef2bb1bf6649f5ac413a30dce12f3, type: 3}
+  - scentSprite: {fileID: 21300000, guid: fab187c9867ea4a90b7d05b8c8a221b0, type: 3}
     category: 1
-    name: Vanilla
+    name: Ros
     cardColor: {r: 0.9528302, g: 0.8984728, b: 0.63372195, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 1353b1f8850c64a618c568f8accdfd1c, type: 3}
+  - scentSprite: {fileID: 21300000, guid: bddbae8f911c59c4c942aa55754bcb40, type: 3}
     category: 1
-    name: Cinnamon
+    name: Saffran
     cardColor: {r: 0.5411765, g: 0.26666668, b: 0.19607845, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 7e1e8aeafc74c4031a71f9e64bb1d297, type: 3}
+  - scentSprite: {fileID: 21300000, guid: 6e430f6298f2a4403bb8035bc5959716, type: 3}
     category: 1
-    name: Clove
+    name: "R\xF6k"
     cardColor: {r: 0.43137258, g: 0.26666668, b: 0.21568629, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 54ec25fa085804162a03da0ed0603263, type: 3}
-    category: 1
-    name: Pepper
+  - scentSprite: {fileID: 21300000, guid: bbe51f01dfb284b4488fff9fb0057445, type: 3}
+    category: 0
+    name: Jordgubbe
     cardColor: {r: 0.16037738, g: 0.12579396, b: 0.1051531, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 15c1b51b2988d482d84b46c86ee8c423, type: 3}
+  - scentSprite: {fileID: 21300000, guid: 4b152c9ac2311414eba679b868654ab2, type: 3}
     category: 1
-    name: Leather
+    name: Timjan
     cardColor: {r: 0.2784314, g: 0.1764706, b: 0.14509805, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 297cf96915cf046f4b68b142a8fd8f9a, type: 3}
+  - scentSprite: {fileID: 21300000, guid: 4f8e8a75526ea445189c9bd5de7496e1, type: 3}
     category: 1
-    name: Musk
+    name: "Rostat Br\xF6d"
     cardColor: {r: 0.57254905, g: 0.36078432, b: 0.23137257, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: b3d516dd84639472f9338b8b1bfe9d78, type: 3}
+  - scentSprite: {fileID: 21300000, guid: c9471fde64bcf4c45a47b010b35dec49, type: 3}
     category: 1
-    name: Butter
+    name: Tryffel
     cardColor: {r: 0.9215687, g: 0.7843138, b: 0.28235295, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 2ce4a17d070824a2f92f22d5c74ba174, type: 3}
+  - scentSprite: {fileID: 21300000, guid: 4f24829cc91dd4d8bb95f3ac30dc59c7, type: 3}
     category: 1
-    name: Toast
+    name: Vanilj
     cardColor: {r: 0.93725497, g: 0.77647066, b: 0.43137258, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: d90955666cd094fd6bbf4614984d2a1a, type: 3}
-    category: 2
-    name: Roasted almond
+  - scentSprite: {fileID: 21300000, guid: 78662d1b075c24947b93f408caeb9130, type: 3}
+    category: 1
+    name: Viol
     cardColor: {r: 0.75294125, g: 0.62352943, b: 0.45098042, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: e65d0ee29938a4059a7fc5beb076f1f8, type: 3}
-    category: 2
-    name: Roasted hazelnut
+  - scentSprite: {fileID: 21300000, guid: 45f39a01c24db4bb6b423c0972b197e9, type: 3}
+    category: 1
+    name: "Valn\xF6t"
     cardColor: {r: 0.34509805, g: 0.15294118, b: 0.098039225, a: 1}
     scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: f928f468656224b6093b3cb993adeaf1, type: 3}
-    category: 2
-    name: Caramel
-    cardColor: {r: 0.41960788, g: 0.24705884, b: 0.18431373, a: 1}
-    scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 350b8c95e816642e6acf8e9fde8caf50, type: 3}
-    category: 2
-    name: Coffee
-    cardColor: {r: 0.36862746, g: 0.23529413, b: 0.18431373, a: 1}
-    scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 3b75893f84b0640989f2c40da50ac1c7, type: 3}
-    category: 2
-    name: Chocolate
-    cardColor: {r: 0.47058827, g: 0.21568629, b: 0.16862746, a: 1}
-    scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: bcf9d9a8b242c4845965c4b496c37ca3, type: 3}
+  - scentSprite: {fileID: 21300000, guid: 6efba5c3c0c8ea543a05e05a3691fe0b, type: 3}
     category: 1
-    name: Smoke
-    cardColor: {r: 0.7607844, g: 0.7411765, b: 0.6117647, a: 1}
-    scentPicture: {fileID: 0}
-  - scentSprite: {fileID: 21300000, guid: 61eb25de0e41de94abb4c357a1bdf79c, type: 3}
-    category: 2
-    name: Stinky Cheese
-    cardColor: {r: 0.7607844, g: 0.7411765, b: 0.6117647, a: 1}
+    name: "Vinj\xE4st"
+    cardColor: {r: 0.41960788, g: 0.24705884, b: 0.18431373, a: 1}
     scentPicture: {fileID: 0}
   scentTemplate: {fileID: 3486797209678752667, guid: 6191f5133811d4b45978975b46a40238,
     type: 3}
@@ -11482,7 +11462,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -82.70508, y: -413.52148}
+  m_AnchoredPosition: {x: -82.70506, y: -413.52148}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1128089735

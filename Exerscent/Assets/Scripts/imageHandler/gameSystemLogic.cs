@@ -86,11 +86,11 @@ public class gameSystemLogic : MonoBehaviour {
 		// 	switchScent("");
 		// }
 
-		if (Input.GetKeyDown(KeyCode.K) && Input.GetKey(KeyCode.LeftControl))
-		{	
-			Debug.Log("Console toggled.");
-			UIManager.toggleConsole();
-		}
+		//if (Input.GetKeyDown(KeyCode.K) && Input.GetKey(KeyCode.LeftControl))
+		//{	
+		//	Debug.Log("Console toggled.");
+		//	UIManager.toggleConsole();
+		//}
 
 		// if (Input.GetKeyDown(KeyCode.O))
 		// {
@@ -103,10 +103,10 @@ public class gameSystemLogic : MonoBehaviour {
 		}
 
 		//if(gameRunning){
-			if (Input.GetKeyUp(KeyCode.R))
-			{
-				switchScent("Lemon");
-			}	
+		//	if (Input.GetKeyUp(KeyCode.R))
+		//	{
+		//		switchScent("Lemon");
+		//	}	
 		// 	if (Input.GetKeyUp(KeyCode.T))
 		// 	{
 		// 		switchScent("Apple");

@@ -502,7 +502,7 @@ public class UIManager : MonoBehaviour {
 		Sequence enterSequence = DOTween.Sequence();
 		enterSequence.Append(menuButton.transform.DOLocalMove(new Vector3(-513, 324, 0), menuSpeed)).SetEase(Ease.InOutSine);
 		//Welcome text
-		WelcomeText.text = "Hello, " + manager.playerName.ToUpper() + "!";
+		WelcomeText.text = "Hej, " + manager.playerName.ToUpper() + "!";
 	}
 
 	public void startPressed() {

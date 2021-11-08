@@ -1,0 +1,37 @@
+{
+  "client": [
+    {
+      "services": {
+        "appinvite_service": {
+          "status": 1
+        }, 
+        "analytics_service": {
+          "status": 0
+        }
+      }, 
+      "oauth_client": [
+        {
+          "client_id": "11248987075-9lbpmu24jog00iepj6lanqo5m9d9r4p2.apps.googleusercontent.com"
+        }
+      ], 
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_MwpU-K2VKHEp_tSqjT-0ooaTgoDMW9A"
+        }
+      ], 
+      "client_info": {
+        "mobilesdk_app_id": "1:11248987075:ios:601f0f317fdc7df2cb6b76", 
+        "android_client_info": {
+          "package_name": "com.SU.Exerscent"
+        }
+      }
+    }
+  ], 
+  "configuration_version": "1", 
+  "project_info": {
+    "storage_bucket": "exerscent-2f698.appspot.com", 
+    "project_id": "exerscent-2f698", 
+    "firebase_url": "https://exerscent-2f698.firebaseio.com", 
+    "project_number": "11248987075"
+  }
+}

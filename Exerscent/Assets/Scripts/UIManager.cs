@@ -23,7 +23,7 @@ public enum UIState {
 public enum menuState {
 	open,
 	close,
-	about,
+	//about,
 	exit,
 	settings,
 	quit
@@ -48,12 +48,12 @@ public class UIManager : MonoBehaviour {
 	public GameObject mainMenu;
 	public GameObject realMainMenu;
 	public GameObject menuBackground;
-	public GameObject about;
+	//public GameObject about;
 	public GameObject admin;
 	public GameObject exitSession;
 	public GameObject settings;
 	public GameObject quit;
-	public GameObject aboutWindow;
+	//public GameObject aboutWindow;
 	public GameObject adminWindow;
 	public GameObject exitWindow;
 	public GameObject settingsWindow;
@@ -95,7 +95,7 @@ public class UIManager : MonoBehaviour {
 	public UIState currentState;
 	public menuState currentMenuState;
 	public bool menuOpen = false;
-	bool aboutOpen = false;
+	//bool aboutOpen = false;
 	bool adminOpen = false;
 	bool settingsOpen = false;
 	bool quitOpen = false;
@@ -110,7 +110,7 @@ public class UIManager : MonoBehaviour {
 		DOTween.defaultEaseType = Ease.OutBack;
         //Set initial menu object positions
 		admin.SetActive(false);
-		aboutWindow.transform.localPosition = new Vector3(200, 700, 0);
+		//aboutWindow.transform.localPosition = new Vector3(200, 700, 0);
 		quitWindow.transform.localPosition = new Vector3(200, 700, 0);
 		settingsWindow.transform.localPosition = new Vector3(200, 700, 0);
 		adminWindow.transform.localPosition = new Vector3(200, 700, 0);
@@ -152,13 +152,13 @@ public class UIManager : MonoBehaviour {
 			case UIState.welcome:
 				welcomeScreen.transform.DOLocalMove(new Vector3(0, 0, 0), transitionSpeed);
 				title.GetComponentInChildren<Image>().DOFillAmount(0, .1f).SetEase(Ease.InSine);
-				StartCoroutine(switchInfoText("Välj doft, lukta på den och placera den på platformen", true));
+				StartCoroutine(switchInfoText("Välj doft, lukta på den och placera den på plattformen", true));
 				enterMain();
 				break;
                 //Show prompt asking player to put a new scent on the reader
 			case UIState.waitingForScent:
 				welcomeScreen.transform.DOLocalMove(new Vector3(1500,0, 0), transitionSpeed);
-				StartCoroutine(switchInfoText("Välj doft, lukta på den och placera den på platformen", true));
+				StartCoroutine(switchInfoText("Välj doft, lukta på den och placera den på plattformen", true));
 				progressBar.transform.DOLocalMove(new Vector3(0, 300, 0), transitionSpeed);
 				break;
 			case UIState.waitingForAttempt:
@@ -322,7 +322,7 @@ public class UIManager : MonoBehaviour {
 // overlap eachother.
 //==================================================================================================
 
-	public void showAbout() {
+	/*public void showAbout() {
 		if(!aboutOpen) {
 			hideAll();
 			aboutOpen = true;
@@ -332,7 +332,7 @@ public class UIManager : MonoBehaviour {
 			about.GetComponent<TextMeshProUGUI>().DOColor(new Color32(219, 69, 20, 255), .3f);
 			about.GetComponent<TextMeshProUGUI>().fontStyle = FontStyles.Underline;
 		}
-	}
+	}*/
 
 	public void showAdmin() {
 		if(!adminOpen) {
@@ -366,14 +366,14 @@ public class UIManager : MonoBehaviour {
 		}		
 	}
 
-	public void hideAbout() {
+	/*public void hideAbout() {
 		Debug.Log("About was hidden");
 		Sequence closeAbout = DOTween.Sequence();
 		closeAbout.Append(aboutWindow.transform.DOLocalMove(new Vector3(220, -1000, 0), menuSpeed)).SetEase(Ease.InOutSine);
 		about.GetComponent<TextMeshProUGUI>().fontStyle = FontStyles.Normal;
 		about.GetComponent<TextMeshProUGUI>().DOColor(new Color32(223, 139, 25, 255), .3f);
 		aboutOpen = false;
-	}
+	}*/
 
 	public void showQuit() {
 		if(!quitOpen) {
@@ -445,10 +445,10 @@ public class UIManager : MonoBehaviour {
 
 	// hideAll() calls the hide functions of each individual menu selection, to conceal the others
 	public void hideAll() {
-		if(aboutOpen) {
+		/*if(aboutOpen) {
 			hideAbout();
 			aboutOpen = false;
-		}
+		}*/
 		if(exitOpen) {
 			hideExit();
 			exitOpen = false;
@@ -495,6 +495,11 @@ public class UIManager : MonoBehaviour {
 		infoText.text = newText;
 		if(reappear) infoText.gameObject.transform.DOLocalMove(new Vector3(0, 0, 0), .3f).SetEase(Ease.OutBack);
 	}
+
+	//Place an image in the center of the screen
+	/*public IEnumerator switchImage(){
+
+	}*/
 
 	//Set welcome text and show old data
 	public void enterMain() {

@@ -17,9 +17,15 @@ MonoBehaviour:
     x: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 43
     width: 1920
     height: 997
+=======
+    y: 45
+    width: 1440
+    height: 851
+>>>>>>> parent of 01eb5597 (library update)
 =======
     y: 45
     width: 1440
@@ -57,6 +63,7 @@ MonoBehaviour:
     y: 30
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1920
     height: 947
   m_MinSize: {x: 679, y: 342}
@@ -66,6 +73,8 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of 01eb5597 (library update)
+=======
+>>>>>>> parent of 01eb5597 (library update)
     width: 1440
     height: 801
   m_MinSize: {x: 679, y: 492}
@@ -73,6 +82,9 @@ MonoBehaviour:
   vertical: 0
   controlID: 16
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 01eb5597 (library update)
+=======
 >>>>>>> parent of 01eb5597 (library update)
 =======
 >>>>>>> parent of 01eb5597 (library update)
@@ -93,10 +105,17 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1380
     y: 0
     width: 540
     height: 947
+=======
+    x: 952
+    y: 0
+    width: 488
+    height: 801
+>>>>>>> parent of 01eb5597 (library update)
 =======
     x: 952
     y: 0
@@ -135,8 +154,13 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 418
     height: 563
+=======
+    width: 301
+    height: 475
+>>>>>>> parent of 01eb5597 (library update)
 =======
     width: 301
     height: 475
@@ -170,6 +194,7 @@ MonoBehaviour:
     x: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 563
     width: 1380
     height: 384
@@ -177,6 +202,8 @@ MonoBehaviour:
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 19}
 =======
+=======
+>>>>>>> parent of 01eb5597 (library update)
 =======
 >>>>>>> parent of 01eb5597 (library update)
     y: 475
@@ -213,8 +240,13 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1920
     height: 997
+=======
+    width: 1440
+    height: 851
+>>>>>>> parent of 01eb5597 (library update)
 =======
     width: 1440
     height: 851
@@ -244,7 +276,11 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1920
+=======
+    width: 1440
+>>>>>>> parent of 01eb5597 (library update)
 =======
     width: 1440
 >>>>>>> parent of 01eb5597 (library update)
@@ -273,8 +309,13 @@ MonoBehaviour:
     x: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 977
     width: 1920
+=======
+    y: 831
+    width: 1440
+>>>>>>> parent of 01eb5597 (library update)
 =======
     y: 831
     width: 1440
@@ -307,6 +348,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1380
     height: 947
   m_MinSize: {x: 403, y: 342}
@@ -316,6 +358,8 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of 01eb5597 (library update)
+=======
+>>>>>>> parent of 01eb5597 (library update)
     width: 952
     height: 801
   m_MinSize: {x: 403, y: 492}
@@ -323,6 +367,9 @@ MonoBehaviour:
   vertical: 1
   controlID: 17
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 01eb5597 (library update)
+=======
 >>>>>>> parent of 01eb5597 (library update)
 =======
 >>>>>>> parent of 01eb5597 (library update)
@@ -347,6 +394,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1380
     height: 563
   m_MinSize: {x: 403, y: 221}
@@ -362,12 +410,17 @@ MonoBehaviour:
   controlID: 18
 >>>>>>> parent of 01eb5597 (library update)
 =======
+=======
+>>>>>>> parent of 01eb5597 (library update)
     width: 952
     height: 475
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
   controlID: 18
+<<<<<<< HEAD
+>>>>>>> parent of 01eb5597 (library update)
+=======
 >>>>>>> parent of 01eb5597 (library update)
 --- !u!114 &11
 MonoBehaviour:
@@ -386,6 +439,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 418
     y: 0
     width: 962
@@ -400,6 +454,12 @@ MonoBehaviour:
 <<<<<<< HEAD
 >>>>>>> parent of 01eb5597 (library update)
 =======
+>>>>>>> parent of 01eb5597 (library update)
+=======
+    x: 301
+    y: 0
+    width: 651
+    height: 475
 >>>>>>> parent of 01eb5597 (library update)
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -515,6 +575,9 @@ MonoBehaviour:
     width: 951
     height: 305
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 01eb5597 (library update)
+=======
 >>>>>>> parent of 01eb5597 (library update)
 =======
 >>>>>>> parent of 01eb5597 (library update)
@@ -534,17 +597,21 @@ MonoBehaviour:
     m_Folders:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/UIelements
   m_ViewMode: 1
   m_StartGridSize: 37
   m_LastFolders:
   - Assets/UIelements
 =======
+=======
+>>>>>>> parent of 01eb5597 (library update)
     - Assets
   m_ViewMode: 1
   m_StartGridSize: 37
   m_LastFolders:
   - Assets
+<<<<<<< HEAD
 >>>>>>> parent of 01eb5597 (library update)
 =======
     - Assets
@@ -553,11 +620,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
 >>>>>>> parent of 01eb5597 (library update)
+=======
+>>>>>>> parent of 01eb5597 (library update)
   m_LastFoldersGridSize: 37
   m_LastProjectPath: /Users/azizabahaviddinova/Documents/GitHub/Exerscent2.0/Exerscent
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     scrollPos: {x: 0, y: 67}
@@ -567,11 +637,16 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of 01eb5597 (library update)
+=======
+>>>>>>> parent of 01eb5597 (library update)
     scrollPos: {x: 0, y: 79}
     m_SelectedIDs: 9a5f0000
     m_LastClickedID: 24474
     m_ExpandedIDs: 000000009a5f00009c5f00009e5f0000a05f000000ca9a3b
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 01eb5597 (library update)
+=======
 >>>>>>> parent of 01eb5597 (library update)
 =======
 >>>>>>> parent of 01eb5597 (library update)
@@ -604,7 +679,11 @@ MonoBehaviour:
     m_LastClickedID: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 000000005449000056490000
+=======
+    m_ExpandedIDs: 000000009a5f00009c5f00009e5f0000a05f0000
+>>>>>>> parent of 01eb5597 (library update)
 =======
     m_ExpandedIDs: 000000009a5f00009c5f00009e5f0000a05f0000
 >>>>>>> parent of 01eb5597 (library update)
@@ -689,6 +768,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1380
     y: 73
     width: 539
@@ -696,11 +776,16 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of 01eb5597 (library update)
+=======
+>>>>>>> parent of 01eb5597 (library update)
     x: 952
     y: 75
     width: 487
     height: 780
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 01eb5597 (library update)
+=======
 >>>>>>> parent of 01eb5597 (library update)
 =======
 >>>>>>> parent of 01eb5597 (library update)
@@ -741,9 +826,15 @@ MonoBehaviour:
     x: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 73
     width: 417
     height: 542
+=======
+    y: 75
+    width: 300
+    height: 454
+>>>>>>> parent of 01eb5597 (library update)
 =======
     y: 75
     width: 300
@@ -767,6 +858,9 @@ MonoBehaviour:
       m_LastClickedID: 0
       m_ExpandedIDs: d4bafffff2baffff12beffffa6c2ffff
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 01eb5597 (library update)
+=======
 >>>>>>> parent of 01eb5597 (library update)
 =======
 >>>>>>> parent of 01eb5597 (library update)
@@ -816,6 +910,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 418
     y: 73
     width: 960
@@ -823,11 +918,16 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of 01eb5597 (library update)
+=======
+>>>>>>> parent of 01eb5597 (library update)
     x: 301
     y: 75
     width: 649
     height: 454
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 01eb5597 (library update)
+=======
 >>>>>>> parent of 01eb5597 (library update)
 =======
 >>>>>>> parent of 01eb5597 (library update)
@@ -844,9 +944,15 @@ MonoBehaviour:
   m_Position:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -21.387897, y: 1.6433201, z: 8.619141}
     speed: 2
     m_Value: {x: -21.387897, y: 1.6433201, z: 8.619141}
+=======
+    m_Target: {x: 4.78914, y: 0, z: 10}
+    speed: 2
+    m_Value: {x: 4.78914, y: 0, z: 10}
+>>>>>>> parent of 01eb5597 (library update)
 =======
     m_Target: {x: 4.78914, y: 0, z: 10}
     speed: 2
@@ -956,6 +1062,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 281
     y: 81
     width: 626
@@ -963,11 +1070,16 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of 01eb5597 (library update)
+=======
+>>>>>>> parent of 01eb5597 (library update)
     x: 301
     y: 75
     width: 649
     height: 454
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 01eb5597 (library update)
+=======
 >>>>>>> parent of 01eb5597 (library update)
 =======
 >>>>>>> parent of 01eb5597 (library update)
@@ -980,7 +1092,11 @@ MonoBehaviour:
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_TargetSize: {x: 626, y: 352}
+=======
+  m_TargetSize: {x: 649, y: 365}
+>>>>>>> parent of 01eb5597 (library update)
 =======
   m_TargetSize: {x: 649, y: 365}
 >>>>>>> parent of 01eb5597 (library update)
@@ -1002,6 +1118,7 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_HBaseRangeMin: -313
     m_HBaseRangeMax: 313
     m_VBaseRangeMin: -176
@@ -1009,11 +1126,16 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of 01eb5597 (library update)
+=======
+>>>>>>> parent of 01eb5597 (library update)
     m_HBaseRangeMin: -324.5
     m_HBaseRangeMax: 324.5
     m_VBaseRangeMin: -182.5
     m_VBaseRangeMax: 182.5
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 01eb5597 (library update)
+=======
 >>>>>>> parent of 01eb5597 (library update)
 =======
 >>>>>>> parent of 01eb5597 (library update)
@@ -1046,6 +1168,9 @@ MonoBehaviour:
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 324.5, y: 216.5}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 01eb5597 (library update)
+=======
 >>>>>>> parent of 01eb5597 (library update)
 =======
 >>>>>>> parent of 01eb5597 (library update)
@@ -1057,6 +1182,7 @@ MonoBehaviour:
       serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       x: -313
       y: -266
       width: 626
@@ -1064,6 +1190,15 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 626, y: 532}
+=======
+      x: -324.5
+      y: -216.5
+      width: 649
+      height: 433
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 649, y: 454}
+>>>>>>> parent of 01eb5597 (library update)
 =======
       x: -324.5
       y: -216.5

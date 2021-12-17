@@ -143,6 +143,7 @@ public class UIManager : MonoBehaviour {
 				//The user selects between 2, 6, 10 options per smell
 			case UIState.selectGame:
 				// StartCoroutine(selectGameAdmin());
+				exitSession.SetActive(false);
 				selectGameScreen.transform.DOLocalMove(new Vector3(0, 0, 0), transitionSpeed);
 				StartCoroutine(switchInfoText("", true));
 				enterMain();	

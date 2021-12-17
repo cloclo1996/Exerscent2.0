@@ -97,7 +97,7 @@ public class gameSystemLogic : MonoBehaviour {
 		// 	UIManager.consoleMessage("This is a test message");
 		// }
 
-		if(Input.GetKeyDown(KeyCode.Return)) {
+		if(Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter)) {
 			setName();
 			UIManager.continueScript();
 		}

@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":-21.387897491455079,"y":1.643320083618164,"z":8.619140625},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":14.538751602172852,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":4.789140224456787,"y":0.0,"z":10.0},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":27.53742790222168,"orthographic":true}
+>>>>>>> parent of 01eb5597 (library update)
 =======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":4.789140224456787,"y":0.0,"z":10.0},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":27.53742790222168,"orthographic":true}
 >>>>>>> parent of 01eb5597 (library update)

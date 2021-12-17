@@ -225,7 +225,7 @@ public class gameSystemLogic : MonoBehaviour {
 
 		currentResult.options = new List<string>();
 		foreach(GameObject scentThing in currentScents) {
-			currentResult.options.Add(scentThing.GetComponentInChildren<ScentBehaviour>().thisData.scentSprite.name.ToLower()); //match scent name on the NFC tag to the name of the Sprite
+			currentResult.options.Add(scentThing.GetComponentInChildren<ScentBehaviour>().thisData.scentSprite.name.ToLower());
 		}
         
 		foreach(GameObject scentCard in currentScents) {

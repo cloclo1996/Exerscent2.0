@@ -29,6 +29,7 @@ public enum menuState {
 	quit
 };
 
+//Language settings. NOT IN USE.
 public enum languageSettings {
 	english,
 	swedish
@@ -38,11 +39,11 @@ public class UIManager : MonoBehaviour {
 	public languageSettings language;
 	public GameObject canvas;
 	public Vector2 screenScaled;
-	public float transitionSpeed = 0.35f;
-	public float menuSpeed = .5f;
+	public float transitionSpeed = 0.35f; //reused variable to set transition speed to switch screens 
+	public float menuSpeed = .5f; //reused variable used to set speed of text/UI animations 
 	private bool consoleHidden = true;
 	public bool endScreen1 = false;
-	//References to UI elements
+	//References to UI elements (they are the same ones as in the editor)
 	public GameObject title;
 	public GameObject menuButton;
 	public GameObject mainMenu;
@@ -127,7 +128,12 @@ public class UIManager : MonoBehaviour {
 
 	}
 
-	//Switch UI state and animate elements accordingly
+
+
+//================================== GAME STATES ========================================									
+// 		Here you will find all the screens that you can go through in the game.
+//=======================================================================================
+
 	public void updateUIState(UIState newState) {
 		currentState = newState;
 		Debug.Log(currentState.ToString());
@@ -183,7 +189,12 @@ public class UIManager : MonoBehaviour {
 		}
 	}
 
-	//Displays different messages depending on what %score the player got during their session
+
+
+//================================== PLAYER SCORING =====================================
+// 	These are the different messages displayed depending on the user's score. To see
+//			where and how the score is counted go to gameSystemLogic.cs.
+//=======================================================================================
 	public void endGameScript(){
 		endScreen1 = true;
 		float totalScore = manager.totalScore;
@@ -206,6 +217,11 @@ public class UIManager : MonoBehaviour {
 		Debug.Log("The player scored: " + procent + "%.");
 	}
 
+
+
+//======================== END GAME SCREEN & ERROR MESSAGES==============================
+//			    End game script to tally the points and error messages.			
+//=======================================================================================
 	public void newEndGameScript()
 	{
 		endScreen1 = true;
@@ -218,7 +234,7 @@ public class UIManager : MonoBehaviour {
 		endScore.text = "Färdig! Din poäng blev " + manager.totalScore + " av " + manager.gameLength + ".";
 	}
 
-	public void showErrorMessage()
+	public void showErrorMessage() //Used in SerialPorts.cs
 	{
 		errorWindow.transform.DOLocalMove(new Vector3(0, 82, 0), transitionSpeed);
 		quitOpen = true;
@@ -227,7 +243,7 @@ public class UIManager : MonoBehaviour {
 		quitSequence.Append(quitWindow.transform.DOLocalMove(new Vector3(0, -158, 0), menuSpeed)).SetEase(Ease.InOutSine);
 	}
 
-	public void hideErrorMessage()
+	public void hideErrorMessage() //Used in SerialPorts.cs
 	{
 		errorWindow.transform.DOLocalMove(new Vector3(0, 1000, 0), transitionSpeed);
 		quitOpen = false;
@@ -236,7 +252,12 @@ public class UIManager : MonoBehaviour {
 		quitSequence.Append(quitWindow.transform.DOLocalMove(new Vector3(200, 1000, 0), menuSpeed)).SetEase(Ease.InOutSine);
 	}
 
-    //Only used for opening and closing menu, can probably safely delete the other cases
+
+
+//============================ OPEN & CLOSE MENU ANIMATION ==============================
+//					 This is used only when opening/closing the Menu					
+//=======================================================================================
+
 	public void updateMenuState(GameObject caller) {
 		Debug.Log(caller.name);
 		switch(caller.gameObject.name) {
@@ -267,6 +288,12 @@ public class UIManager : MonoBehaviour {
 				break;
 		}
 	}
+
+
+
+//================================== LOADING BAR ========================================
+//			Exerscent loading bar animation seen when you open the game.								
+//=======================================================================================
 
 	public IEnumerator enterWait() {
 		consoleMessage("Login window activated");
@@ -317,6 +344,8 @@ public class UIManager : MonoBehaviour {
 		firstMsg.GetComponent<TextMeshProUGUI>().text = newString;
 
 	}
+
+
 
 //=========================== CONCEAL/REVEAL MENU SELECTION ========================================
 // Series of functions that conceal or reveal the different menu selections so that they do not
@@ -486,7 +515,11 @@ public class UIManager : MonoBehaviour {
 		manager.quitGame();
 	}
 
-// ---------------------------------------------------------------------------------------------------
+
+
+//=========================== UI ANIMATIONS =======================================
+//			 		Animations for various UI elements.
+//=================================================================================
 
 	//Scale and change info text
 	public IEnumerator switchInfoText(string newText, bool reappear) {
@@ -497,7 +530,7 @@ public class UIManager : MonoBehaviour {
 		if(reappear) infoText.gameObject.transform.DOLocalMove(new Vector3(0, 0, 0), .3f).SetEase(Ease.OutBack);
 	}
 
-	//Set welcome text and show old data
+	//Set welcome text and show old data. NOT WORKING.
 	public void enterMain() {
 		//instance of the Menu
 		Sequence enterSequence = DOTween.Sequence();
@@ -547,7 +580,7 @@ public class UIManager : MonoBehaviour {
 	}
 
 	//Old code that was used when GameSize was set in settings
-	public void updateGameSize(GameObject caller) {
+	/*public void updateGameSize(GameObject caller) {
 		if (caller == sixOptions){
 			Debug.Log("Six options clicked");
 			manager.sixOptions();
@@ -561,7 +594,7 @@ public class UIManager : MonoBehaviour {
 			manager.twoOptions();
 			setTextColour(caller);
 		}
-	}
+	}*/
 
 	//Use this function if you need to delay the change up updateUIState so animations got time to finish 
 	public IEnumerator delayedUIState(float time,UIState state)
@@ -572,7 +605,7 @@ public class UIManager : MonoBehaviour {
 	}
 
 
-	//Continues button for the selectGameState
+	//Continue button for the selectGameState. Button will only activate when certain conditions are met (ie. player name is entered)
 	public void continueScript()
 	{
 		if (currentState == UIState.enterLogin)
@@ -610,13 +643,13 @@ public class UIManager : MonoBehaviour {
 	}
 	
 
-	//Changes callers text to red
+	//Changes caller's text to red
 	public void changeColourRed(GameObject caller)
 	{
 		caller.GetComponent<TextMeshProUGUI>().DOColor(new Color32(219, 69, 20, 255), .3f);
 	}
 	
-	//Changes callers text to blue
+	//Changes caller's text to blue
 	public void changeColourBlue(GameObject caller)
 	{
 		caller.GetComponent<TextMeshProUGUI>().DOColor(new Color32(129, 186, 213, 255), .3f);

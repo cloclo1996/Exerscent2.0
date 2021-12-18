@@ -62,7 +62,7 @@ public class gameSystemLogic : MonoBehaviour {
 	public ScentBehaviour scentBehaviour;
 	//Data handler
 	public GameObject dataHandlingObj;     
-	//Player id
+	//Player's ID (name)
 	public string playerName = "";
 	bool newGame = true;
 	public RectTransform scentGridRect;

@@ -7914,6 +7914,7 @@ MonoBehaviour:
   menuBackground: {fileID: 0}
   about: {fileID: 530907530}
   admin: {fileID: 1128089735}
+  restart: {fileID: 1436037653}
   exitSession: {fileID: 314194289}
   settings: {fileID: 636220080}
   quit: {fileID: 1349723583}

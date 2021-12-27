@@ -24,6 +24,7 @@ public enum menuState {
 	open,
 	close,
 	about,
+	restart,
 	exit,
 	settings,
 	quit
@@ -51,6 +52,7 @@ public class UIManager : MonoBehaviour {
 	public GameObject menuBackground;
 	public GameObject about;
 	public GameObject admin;
+    public GameObject restart;
 	public GameObject exitSession;
 	public GameObject settings;
 	public GameObject quit;
@@ -126,6 +128,16 @@ public class UIManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+        if (!manager.gameRunning)
+        {
+			restart.SetActive(false);
+			exitSession.SetActive(false);
+        }
+        else
+        {
+			restart.SetActive(true);
+			exitSession.SetActive(true);
+		}
 	}
 
 
@@ -149,7 +161,8 @@ public class UIManager : MonoBehaviour {
 				//The user selects between 2, 6, 10 options per smell
 			case UIState.selectGame:
 				// StartCoroutine(selectGameAdmin());
-				exitSession.SetActive(false);
+				//exitSession.SetActive(false);
+				//restart.SetActive(false);
 				selectGameScreen.transform.DOLocalMove(new Vector3(0, 0, 0), transitionSpeed);
 				StartCoroutine(switchInfoText("", true));
 				enterMain();	
@@ -684,12 +697,11 @@ public class UIManager : MonoBehaviour {
 	//Restarts the current session
 	public void restartSession(GameObject caller){
 
-		if(manager.gameRunning) {
 			//Hides the "Are you sure" question.
 			hideRestart();
 			
 			//Clears all the current data and cards
-			manager.restart();
+			manager.reset();
 
 			//Closes the menu
 			updateMenuState(menuButton);
@@ -700,19 +712,18 @@ public class UIManager : MonoBehaviour {
 
 			//Returns the user to the waiting for scent screen
 			StartCoroutine(delayedUIState(1f, UIState.welcome));			
-		}
+
 		
 	}
 
 	//Exits the current sessions, bring the player back to selectGame state
 	public void exitSessionScript(){
 
-		if(manager.gameRunning) {
 			//Hides the "Are you sure" question.
 			hideExit();
 			
 			//Clears all the current data and cards
-			manager.restart();
+			manager.reset();
 
 			//Closes the menu
 			updateMenuState(menuButton);
@@ -723,7 +734,6 @@ public class UIManager : MonoBehaviour {
 
 			//Returns the user to the waiting for scent screen
 			StartCoroutine(delayedUIState(1f, UIState.selectGame));			
-		}
 		
 	}
 

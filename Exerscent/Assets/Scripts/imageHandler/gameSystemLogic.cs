@@ -72,7 +72,8 @@ public class gameSystemLogic : MonoBehaviour {
 
 
 	public void Start () {
-        //Set game length on start
+		//Set game length on start
+		//UIManager.restart.GetComponent<GameObject>();
 		setLength(GameObject.Find("LengthInput"));
 		scentGridRect = GameObject.Find("ScentGrid").GetComponent<RectTransform>();
 		gridLayout = GameObject.Find("ScentGrid").GetComponent<GridLayoutGroup>();
@@ -102,11 +103,12 @@ public class gameSystemLogic : MonoBehaviour {
 			UIManager.continueScript();
 		}
 
-		//if(gameRunning){
-		//	if (Input.GetKeyUp(KeyCode.R))
-		//	{
-		//		switchScent("Lemon");
-		//	}	
+        //if (gameRunning)
+        //{
+            if (Input.GetKeyUp(KeyCode.R))
+            {
+                switchScent("Lemon");
+            }
 		// 	if (Input.GetKeyUp(KeyCode.T))
 		// 	{
 		// 		switchScent("Apple");
@@ -126,7 +128,7 @@ public class gameSystemLogic : MonoBehaviour {
 		// 	Debug.Log("This keycode is working");
 
 		// }
-		
+
 		// if(Input.GetKeyDown(KeyCode.K)) {
 		// 	//Run function that Debug.log Firebase data
 		// 	exportFirebaseData();
@@ -136,7 +138,7 @@ public class gameSystemLogic : MonoBehaviour {
 		// 	Debug.Log(gridSize);
 		// 	Debug.Log("This keycode is working");
 		// }
-	}
+     }
 
 	//Start a new round
 	public IEnumerator newRound() {
@@ -326,7 +328,7 @@ public class gameSystemLogic : MonoBehaviour {
 	}
 
 	//Reset all game data on restart
-	public void restart () {
+	public void reset () {
 		gameRunning = false;
 		StartCoroutine(resetCards());
 		clearData();

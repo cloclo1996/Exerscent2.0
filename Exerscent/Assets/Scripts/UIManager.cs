@@ -68,10 +68,12 @@ public class UIManager : MonoBehaviour {
 	public GameObject welcomeScreen;
 	public GameObject selectGameScreen;
 	public GameObject logInScreen;
-	public GameObject twoOptions; 
+	public GameObject twoOptions;
+	public GameObject fourOptions;
 	public GameObject sixOptions;
 	public GameObject tenOptions;
 	public GameObject selectTwo;
+	public GameObject selectFour;
 	public GameObject selectSix;
 	public GameObject selectTen;
 	public GameObject firstMsg;
@@ -158,7 +160,7 @@ public class UIManager : MonoBehaviour {
 			Debug.Log("I am waiting for a login");
 				StartCoroutine(enterWait());
 				break;
-				//The user selects between 2, 6, 10 options per smell
+				//The user selects between 2, 4, 6, 10 options per smell
 			case UIState.selectGame:
 				// StartCoroutine(selectGameAdmin());
 				//exitSession.SetActive(false);
@@ -237,14 +239,18 @@ public class UIManager : MonoBehaviour {
 //=======================================================================================
 	public void newEndGameScript()
 	{
-		endScreen1 = true;
-		float totalScore = manager.totalScore;
-		float gameLength = manager.gameLength;
-		float procent = (totalScore / gameLength) *100;
-		endScreen.transform.DOLocalMove(new Vector3(0, 0, 0), transitionSpeed);
-		TextMeshProUGUI endScore = GameObject.Find("EndText").GetComponent<TextMeshProUGUI>();
-		playAgainButton.transform.DOLocalMove(new Vector3(0, -290, 0), transitionSpeed);
-		endScore.text = "Färdig! Din poäng blev " + manager.totalScore + " av " + manager.gameLength + ".";
+        if (!manager.gameRunning)
+        {
+			endScreen1 = true;
+			float totalScore = manager.totalScore;
+			float gameLength = manager.gameLength;
+			float procent = (totalScore / gameLength) *100;
+			endScreen.transform.DOLocalMove(new Vector3(0, 0, 0), transitionSpeed);
+			TextMeshProUGUI endScore = GameObject.Find("EndText").GetComponent<TextMeshProUGUI>();
+			playAgainButton.transform.DOLocalMove(new Vector3(0, -290, 0), transitionSpeed);
+			endScore.text = "Färdig! Din poäng blev " + manager.totalScore + " av " + manager.gameLength + ".";
+        }
+
 	}
 
 	public void showErrorMessage() //Used in SerialPorts.cs
@@ -645,6 +651,9 @@ public class UIManager : MonoBehaviour {
 		selectTwo.GetComponent<TextMeshProUGUI>().fontStyle = FontStyles.Bold;
 		selectTwo.GetComponent<TextMeshProUGUI>().DOColor(new Color32(129, 186, 213, 255), .3f);
 
+		selectFour.GetComponent<TextMeshProUGUI>().fontStyle = FontStyles.Bold;
+		selectFour.GetComponent<TextMeshProUGUI>().DOColor(new Color32(129, 186, 213, 255), .3f);
+
 		selectSix.GetComponent<TextMeshProUGUI>().fontStyle = FontStyles.Bold;
 		selectSix.GetComponent<TextMeshProUGUI>().DOColor(new Color32(129, 186, 213, 255), .3f);
 
@@ -671,9 +680,14 @@ public class UIManager : MonoBehaviour {
 
 	//Used in selectGame state to select either 2 - 6 - 10 options per smell
 	public void selectGameSize(GameObject caller){
-		if (caller == selectTwo){
+		if (caller == selectTwo) {
 			Debug.Log("Two options clicked");
 			manager.twoOptions();
+			setTextColour(caller);
+			manager.gridSelected = true;
+		} else if (caller == selectFour){
+			Debug.Log("Four options clicked");
+			manager.fourOptions();
 			setTextColour(caller);
 			manager.gridSelected = true;
 		} else if (caller == selectSix){
@@ -743,7 +757,6 @@ public class UIManager : MonoBehaviour {
 		
 		//Clears all the current data
 		manager.playAgain();
-
 		
 		//Close the Menu
 		menuOpen=true;

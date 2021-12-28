@@ -81,63 +81,71 @@ public class gameSystemLogic : MonoBehaviour {
 	}
 	
 	public void Update () {
-		//Fake scents and login with keyboard for debug purposes
-		// if (Input.GetKeyUp(KeyCode.W))
-		// {
-		// 	switchScent("");
-		// }
+		//---------------------------------- Debug ----------------------------------
+		// Helper functions, fake scents and login with keyboard for debug purposes.
+		//---------------------------------------------------------------------------
 
+		//Toggle the console
 		//if (Input.GetKeyDown(KeyCode.K) && Input.GetKey(KeyCode.LeftControl))
 		//{	
 		//	Debug.Log("Console toggled.");
 		//	UIManager.toggleConsole();
 		//}
 
+		//Testing the console
 		// if (Input.GetKeyDown(KeyCode.O))
 		// {
 		// 	UIManager.consoleMessage("This is a test message");
 		// }
 
-		if(Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter)) {
-			setName();
-			UIManager.continueScript();
-		}
-
-        //if (gameRunning)
-        //{
-            if (Input.GetKeyUp(KeyCode.R))
-            {
-                switchScent("Lemon");
-            }
+		//Pretend to scan an apple scent 
 		// 	if (Input.GetKeyUp(KeyCode.T))
 		// 	{
 		// 		switchScent("Apple");
 		// 	}
-		// }
+
+		//Pretend to scan a lemon scent
+		if (Input.GetKeyUp(KeyCode.R))
+		{
+			switchScent("Lemon");
+		}
+
+		//Speedup Login
 		// if(Input.GetKeyDown(KeyCode.Space)) {
 		// 	playerName = "Testplayer";
 		// 	UIManager.updateUIState(UIState.welcome);
 		// 	gameRunning = true;
 		// }
 
+		//Debug Login
 		// if(Input.GetKeyDown(KeyCode.L)) {
 		// 	UIManager.updateUIState(UIState.selectGame);
 		// 	playerName = "Martin_Test";
 		// 	UIManager.admin.SetActive(true);
 		// 	// scentBehaviour.debugFunc();
 		// 	Debug.Log("This keycode is working");
-
 		// }
 
+		//Export data to Firebase
 		// if(Input.GetKeyDown(KeyCode.K)) {
 		// 	//Run function that Debug.log Firebase data
 		// 	exportFirebaseData();
 		// }
+
+		//Restart session
 		// if(Input.GetKeyDown(KeyCode.O)){
 		// 	// restart();
 		// 	Debug.Log(gridSize);
 		// 	Debug.Log("This keycode is working");
-		// }
+
+		//----------------------- Shortcuts---------------------------
+		//		Here you place shortcuts for more advanced users.
+		//------------------------------------------------------------
+		if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
+		{
+			setName();
+			UIManager.continueScript();
+		}
      }
 
 	//Start a new round
@@ -336,7 +344,7 @@ public class gameSystemLogic : MonoBehaviour {
 	}
 
 	public void playAgain(){
-		gameRunning = false;
+		//gameRunning = false;
 		clearData();
 		newGame = true;
 	}
@@ -428,6 +436,7 @@ public class gameSystemLogic : MonoBehaviour {
 			gridLayout.spacing = new Vector2(80, 160);
 	}
 
+
 	public void sixOptions(){
 		//Changes the gridSize to 3, allowing 6 options to appear
 			gridSize.x = 3;
@@ -442,6 +451,23 @@ public class gameSystemLogic : MonoBehaviour {
 			//Changes the padding between the cards, original value
 			gridLayout.spacing = new Vector2(60, 160);
 	}
+
+	public void fourOptions()
+	{
+		//Changes the gridSize to 4, allowing 4 options to appear
+		gridSize.x = 2;
+		gridSize.y = 2;
+		//Sets to two rows instead of one
+		gridLayout.constraintCount = 2;
+		Debug.Log("Changed to 4 options per smell.");
+
+		//Changes the starting point of the grid, fitting all the cards onto the screen
+		scentGridRect.localPosition = new Vector3(-300, -63, 0);
+
+		//Changes the padding between the cards, fitting all the cards
+		gridLayout.spacing = new Vector2(80, 160);
+	}
+
 
 	public void twoOptions(){
 		//Changes the gridSize to 1, allowing 2 options to appear

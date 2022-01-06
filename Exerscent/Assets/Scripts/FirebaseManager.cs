@@ -32,7 +32,7 @@ public class FirebaseManager : MonoBehaviour {
 		FirebaseApp.DefaultInstance.SetEditorDatabaseUrl("https://exerscent-2f698.firebaseio.com/");
 		dataref = FirebaseDatabase.DefaultInstance.RootReference;
 
-		//set gameSystemLogic to manager
+		//gameSystemLogic will have to be refered to as "manager" in FirebaseManager.
 		manager = GameObject.FindObjectOfType<gameSystemLogic>();
 	}
 
@@ -74,6 +74,12 @@ public class FirebaseManager : MonoBehaviour {
 				allOptions.Child("Option04").SetValueAsync(currentSet.options[3]);
 				allOptions.Child("Option05").SetValueAsync(currentSet.options[4]);
 				allOptions.Child("Option06").SetValueAsync(currentSet.options[5]);
+				resultIndex ++;
+			} else if((manager.gridSize.x == 2)&&(manager.gridSize.y == 2)){
+				allOptions.Child("Option01").SetValueAsync(currentSet.options[0]);
+				allOptions.Child("Option02").SetValueAsync(currentSet.options[1]);
+				allOptions.Child("Option03").SetValueAsync(currentSet.options[2]);
+				allOptions.Child("Option04").SetValueAsync(currentSet.options[3]);
 				resultIndex ++;
 			} else if (manager.gridSize.x == 2){
 				allOptions.Child("Option01").SetValueAsync(currentSet.options[0]);

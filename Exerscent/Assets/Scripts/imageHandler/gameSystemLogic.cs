@@ -105,10 +105,10 @@ public class gameSystemLogic : MonoBehaviour {
 		// 	}
 
 		//Pretend to scan a lemon scent
-		if (Input.GetKeyUp(KeyCode.R))
-		{
-			switchScent("Lemon");
-		}
+		// if (Input.GetKeyUp(KeyCode.R))
+		// {
+		// 	switchScent("Lemon");
+		// }
 
 		//Speedup Login
 		// if(Input.GetKeyDown(KeyCode.Space)) {

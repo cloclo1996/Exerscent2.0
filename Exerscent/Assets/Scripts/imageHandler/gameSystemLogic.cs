@@ -98,7 +98,7 @@ public class gameSystemLogic : MonoBehaviour {
 		// 	UIManager.consoleMessage("This is a test message");
 		// }
 
-		//Pretend to scan an apple scent 
+		// //Pretend to scan an apple scent 
 		// 	if (Input.GetKeyUp(KeyCode.T))
 		// 	{
 		// 		switchScent("Apple");

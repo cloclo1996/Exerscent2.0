@@ -3059,7 +3059,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 800, y: 50}
+  m_SizeDelta: {x: 911.9, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &311697841
 MonoBehaviour:
@@ -3079,7 +3079,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Exerscent kan inte hitta en anslutning till Arduino...
+  m_text: "Exerscent kan inte hitta en anslutning till plattformen. Anslut den och
+    \xF6ppna Exerscent igen."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 567dbe6157b73468480c8fbd8db954cc, type: 2}
   m_sharedMaterial: {fileID: -389406757727938520, guid: 567dbe6157b73468480c8fbd8db954cc,
@@ -3125,7 +3126,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 0
+  m_firstOverflowCharacterIndex: 57
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -3149,12 +3150,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 311697841}
-    characterCount: 54
+    characterCount: 93
     spriteCount: 0
-    spaceCount: 7
-    wordCount: 8
+    spaceCount: 13
+    wordCount: 14
     linkCount: 0
-    lineCount: 1
+    lineCount: 2
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -7680,6 +7681,7 @@ MonoBehaviour:
   scentBehaviour: {fileID: 0}
   dataHandlingObj: {fileID: 1475541674}
   playerName: 
+  newGame: 1
   scentGridRect: {fileID: 0}
   gridLayout: {fileID: 0}
   SerialCom: {fileID: 669712904}
@@ -7782,6 +7784,7 @@ MonoBehaviour:
   WelcomeText: {fileID: 1433444535}
   endScreen: {fileID: 1629301707}
   manager: {fileID: 669712902}
+  SerialPorts: {fileID: 0}
   currentState: 0
   currentMenuState: 0
   menuOpen: 0
@@ -17882,7 +17885,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1851701319
 RectTransform:
   m_ObjectHideFlags: 0

@@ -64,16 +64,13 @@ public class SerialPorts : MonoBehaviour {
 					this.gameObject.GetComponent<SerialCom> ().setPort (fullPortName);
 					portFound = true;
 
-					if(offerQuit==15)
-					{
-						UIManager.hideErrorMessage();
-					}
+					// if(offerQuit==15)
+					// {
+					// 	UIManager.hideErrorMessage();
+					// }
 
 					CancelInvoke(); //cancels Invoke repeating as port is found.
 
-
-				} else {
-				
 
 				}
 			}
@@ -100,7 +97,8 @@ public class SerialPorts : MonoBehaviour {
 					
 					if(offerQuit==15)
 					{
-						UIManager.hideErrorMessage();
+						//UIManager.hideErrorMessage();
+						Application.Quit();
 					}
 
 					CancelInvoke();
@@ -109,7 +107,6 @@ public class SerialPorts : MonoBehaviour {
 		}
 
 		if(portFound==false){
-			
 			//Should later use UI instead of print() to let user know the usb has not been inserted
 			//print ("Please make sure you have inserted the scent platform");
 			Debug.Log("Port has not been found");
@@ -127,6 +124,5 @@ public class SerialPorts : MonoBehaviour {
 				offerQuit++;
 			}
 		}
-
 	}
 }

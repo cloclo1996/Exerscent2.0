@@ -96,6 +96,8 @@ public class UIManager : MonoBehaviour {
 	public GameObject endScreen;
 	//Game manager reference
 	public gameSystemLogic manager;
+
+	public SerialPorts SerialPorts;
 	//Current state of the UI
 	public UIState currentState;
 	public menuState currentMenuState;
@@ -174,13 +176,13 @@ public class UIManager : MonoBehaviour {
 			case UIState.welcome:
 				welcomeScreen.transform.DOLocalMove(new Vector3(0, 0, 0), transitionSpeed);
 				title.GetComponentInChildren<Image>().DOFillAmount(0, .1f).SetEase(Ease.InSine);
-				StartCoroutine(switchInfoText("Välj doft, lukta på den och placera den på platformen", true));
+				StartCoroutine(switchInfoText("Välj doft, lukta på den och placera den på plattformen", true));
 				enterMain();
 				break;
                 //Show prompt asking player to put a new scent on the reader
 			case UIState.waitingForScent:
 				welcomeScreen.transform.DOLocalMove(new Vector3(1500,0, 0), transitionSpeed);
-				StartCoroutine(switchInfoText("Välj doft, lukta på den och placera den på platformen", true));
+				StartCoroutine(switchInfoText("Välj doft, lukta på den och placera den på plattformen", true));
 				progressBar.transform.DOLocalMove(new Vector3(0, 300, 0), transitionSpeed);
 				break;
 			case UIState.waitingForAttempt:
@@ -255,11 +257,11 @@ public class UIManager : MonoBehaviour {
 
 	public void showErrorMessage() //Used in SerialPorts.cs
 	{
-		errorWindow.transform.DOLocalMove(new Vector3(0, 82, 0), transitionSpeed);
-		quitOpen = true;
-		quitText.GetComponent<TextMeshProUGUI>().text = "Vill du avsluta?";
-		Sequence quitSequence = DOTween.Sequence();
-		quitSequence.Append(quitWindow.transform.DOLocalMove(new Vector3(0, -158, 0), menuSpeed)).SetEase(Ease.InOutSine);
+			errorWindow.transform.DOLocalMove(new Vector3(0, 82, 0), transitionSpeed);
+			quitOpen = true;
+			quitText.GetComponent<TextMeshProUGUI>().text = "Vill du avsluta?";
+			Sequence quitSequence = DOTween.Sequence();
+			quitSequence.Append(quitWindow.transform.DOLocalMove(new Vector3(0, -158, 0), menuSpeed)).SetEase(Ease.InOutSine);			
 	}
 
 	public void hideErrorMessage() //Used in SerialPorts.cs

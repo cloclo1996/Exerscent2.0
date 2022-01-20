@@ -446,7 +446,7 @@ ScriptsOnlyBuild:
     className: Bloom
   - hash:
       serializedVersion: 2
-      Hash: a28a1480c275f18017d9ba4ab68753fc
+      Hash: 06d7e5386c786e7b3eae5a77bccffe34
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIManager
@@ -1952,7 +1952,7 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerValue
   - hash:
       serializedVersion: 2
-      Hash: 4169f99f9ce36eed22b48659f92e958b
+      Hash: ed78bb676e5d542c999382fe375ddc6d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: gameSystemLogic

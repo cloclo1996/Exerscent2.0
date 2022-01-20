@@ -33,7 +33,7 @@ public class gameSystemLogic : MonoBehaviour {
 	public int totalAttempts = 0;
 	public bool customLength = false;
 	public int gameLength = 0; 
-	public bool gameRunning = false;
+	public bool gameRunning = false; //Use this to inform Unity when game is running (used to hide/show menu options)
 	public bool gridSelected = false;
 	public bool lengthSelected = false;
 	string elapsedTime;
@@ -64,7 +64,7 @@ public class gameSystemLogic : MonoBehaviour {
 	public GameObject dataHandlingObj;     
 	//Player's ID (name)
 	public string playerName = "";
-	bool newGame = true;
+	public bool newGame = true;
 	public RectTransform scentGridRect;
 	public GridLayoutGroup gridLayout;
 
@@ -304,21 +304,23 @@ public class gameSystemLogic : MonoBehaviour {
 			gameRunning = true;
 		}
         //Check if UI is in correct state
-		if(gameRunning && UIManager.currentState != UIState.waitingForAttempt && UIManager.currentState != UIState.endGame) {
-			
 
+		if(gameRunning && UIManager.currentState != UIState.waitingForAttempt && UIManager.currentState != UIState.endGame) {
 
 			//Check if scent has already been used
 			foreach(string usedScent in usedScents) {
 				if(usedScent == scentName) {
-					StartCoroutine(UIManager.switchInfoText("Du har redan väljat denna doft. Välj en ny för att fortsätta", true));
-					return;
+					Invoke("switchScent", 5.0f);
+					if(usedScent == scentName){
+						StartCoroutine(UIManager.switchInfoText("Du har redan väljat denna doft. Välj en ny för att fortsätta", true));
+						return;
+					}
+
 				}
 			}
 
             //Accept new scent if not identical to old one
 			if(scentName.ToLower() != correctScent.ToLower()) {
-
 				correctScent = scentName.ToLower();
 				StartCoroutine(newRound());
 				Debug.Log("switchScent recieved the variable " + scentName);
